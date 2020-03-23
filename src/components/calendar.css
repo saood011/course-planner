@@ -1,0 +1,214 @@
+.calendar-container {
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.calendar {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.day {
+  font-size: 0.7em;
+  cursor: pointer;
+  height: 24px;
+  width: 100px !important;
+  vertical-align: top !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.day:hover {
+  background-color: rgba(241, 235, 235, 0.712);
+}
+
+.current-day {
+  vertical-align: top !important;
+  border: 2px solid red !important;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 15px;
+  color: red;
+}
+
+.Month {
+  height: 39px;
+  text-align: center;
+  background-color: rgb(247, 220, 67) !important;
+  vertical-align: top;
+  padding: 0px !important;
+}
+.month-cell {
+  padding: 0px !important;
+  vertical-align: middle !important;
+}
+#download-button {
+  z-index: 1;
+}
+
+.event-vacation {
+  background-color: red !important;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+  color: white !important;
+}
+.event-mentoring {
+  background-color: rgb(18, 47, 110) !important;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+  color: white !important;
+}
+.event-blue {
+  background-color: #a8e6cf;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.event-green {
+  background-color: #dcedc1;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.event-orange {
+  background-color: #ffd3b6;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.event-yellow {
+  background-color: #ffeead;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.event-red {
+  background-color: #ffb3ba;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-input {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.heading {
+  background-color: #c93b28;
+  color: white;
+}
+.event-grey {
+  background-color: #d4d8d4;
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.setting-icon {
+  vertical-align: middle !important;
+}
+.dropdown-item,
+.settings {
+  cursor: pointer !important;
+  font-size: smaller;
+}
+
+.delVacation {
+  cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
+}
+.slide-bar {
+  background: white;
+  font-size: smaller;
+}
+#table-public-holidays td {
+  max-width: 150px;
+}
+.google-slider-close {
+  right: 500px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  padding-top: 2px;
+}
+.delete {
+  display: none;
+  width: 40%;
+  height: 100%;
+  background-color: red;
+}
+.delete::after {
+  content: "Delete";
+  color: white;
+  padding: 5px;
+}
+.event-mentoring:hover .delete {
+  display: block;
+  position: relative;
+  top: -55%;
+  left: 60%;
+}
+.event-language:hover .delete {
+  display: block;
+  position: relative;
+  top: -55%;
+  left: 60%;
+}
+.reborn {
+  padding-left: 5px;
+  padding-right: 3px;
+}
+.event-language {
+  background-color: hsl(300, 50%, 29%);
+  font-size: xx-small;
+  vertical-align: top !important;
+  padding: 0px !important;
+  border: 1px solid grey !important;
+  font-weight: bold;
+  font-style: italic;
+  color: white !important;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
