@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/course-planner/static/css/main.df986c12.chunk.css",
+    "main.js": "/course-planner/static/js/main.902ff910.chunk.js",
+    "main.js.map": "/course-planner/static/js/main.902ff910.chunk.js.map",
+    "runtime-main.js": "/course-planner/static/js/runtime-main.901cdf3e.js",
+    "runtime-main.js.map": "/course-planner/static/js/runtime-main.901cdf3e.js.map",
+    "static/css/2.6696f92c.chunk.css": "/course-planner/static/css/2.6696f92c.chunk.css",
+    "static/js/2.42a218d0.chunk.js": "/course-planner/static/js/2.42a218d0.chunk.js",
+    "static/js/2.42a218d0.chunk.js.map": "/course-planner/static/js/2.42a218d0.chunk.js.map",
+    "index.html": "/course-planner/index.html",
+    "precache-manifest.4a6b9c48ccd6346e58c410d368183b16.js": "/course-planner/precache-manifest.4a6b9c48ccd6346e58c410d368183b16.js",
+    "service-worker.js": "/course-planner/service-worker.js",
+    "static/css/2.6696f92c.chunk.css.map": "/course-planner/static/css/2.6696f92c.chunk.css.map",
+    "static/css/main.df986c12.chunk.css.map": "/course-planner/static/css/main.df986c12.chunk.css.map",
+    "static/js/2.42a218d0.chunk.js.LICENSE.txt": "/course-planner/static/js/2.42a218d0.chunk.js.LICENSE.txt",
+    "static/media/english.jpg": "/course-planner/static/media/english.764d6c87.jpg",
+    "static/media/german.jpg": "/course-planner/static/media/german.03f377e9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.901cdf3e.js",
+    "static/css/2.6696f92c.chunk.css",
+    "static/js/2.42a218d0.chunk.js",
+    "static/css/main.df986c12.chunk.css",
+    "static/js/main.902ff910.chunk.js"
+  ]
+}
